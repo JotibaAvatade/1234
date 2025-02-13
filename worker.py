@@ -150,7 +150,8 @@ def search_and_click(proxy_host):
                 print("No Google Ads found!")
                 message = f"❌ No Ad Found!\n🔍 Keyword: {keyword}\n🌍 IP: {ip_address}"
 
-            send_telegram_message(message)                
+            send_telegram_message(message) 
+            print("Forkrequest")
         except Exception as e:
             print("An error occurred:", e)
 
